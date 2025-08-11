@@ -8,5 +8,3 @@ initAccordion();
 initDropMenu();
 initMenuMobile();
 
-
-
