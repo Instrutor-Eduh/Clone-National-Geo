@@ -18,7 +18,14 @@ body {
 img {
     display: block;
     max-width: 100%;
+    height: auto;
 }
+
+.div-image {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
 
 ul {
     list-style: none;
@@ -46,7 +53,7 @@ ul {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 200px minmax(300px, 800px) 1fr;
+    grid-template-columns: 1fr 200px minmax(450px, 800px) 1fr;
     align-items: center;
 }
 
