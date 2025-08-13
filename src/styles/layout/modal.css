@@ -6,7 +6,6 @@
         top: 0;
         left: 0;
     z-index: 1;
-    display: flex;
     align-items: center;
     justify-content: center;
     display: none;
@@ -76,4 +75,9 @@
 
 .modal button[type="submit"]:hover {
     opacity: 0.8;
+}
+
+/*Manipulação no JS*/
+.modal-container.ativo {
+    display: flex;
 }
