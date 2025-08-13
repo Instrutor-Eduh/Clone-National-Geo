@@ -9,11 +9,10 @@
 </head>
 <body>
     <div class="grid-container">
+        <img class="div-image" src="src/assets/images/Logo.png" alt="">
+           
         <!-- Início cabeçalho-->
         <header class="menu">
-            <div class="div-image">
-                <img src="src/assets/images/Logo.png" alt="">
-            </div>
             <nav>
                 <!-- Início menu mobile -->
                  <button class="button-mobile" data-menu="mobile">
@@ -34,7 +33,7 @@
                         </ul>
                     </li>
                     <li><a href="#contatos">contato</a></li>
-                    <li><a href="#">login ⇨</a></li>
+                    <li><a href="login.html" target="_blank" data-modal="abrirModal">login ⇨</a></li>
                 </ul>
             </nav>
         </header>
@@ -42,7 +41,7 @@
 
         <!-- Início Primeira sessão-->
         <section class="section-one grid-section" id="animais">
-            <h1 class="titulos">national geographic</h1>
+            <h1 class="titulos">mundo<br>selvagem</h1>
             <ul class="animais-list" data-tab="animais">
                 <li><img src="src/assets/images/raposa.jpg" alt="Imagem de um Raposa"></li>
                 <li><img src="src/assets/images/esquilo.jpg" alt="Imagem de um Esquilo"></li>
@@ -216,7 +215,22 @@
             <p>Todos os direitos reservados.</p>
          </footer>
         <!-- Fim rodapé -->
-
     </div>
+
+    <!-- Início Modal -->
+     <div class="modal-container" data-modal="containerModal">
+        <div class="modal">
+            <button class="button-fecha-modal" data-modal="fechaModal">x</button>
+            <form action="#">
+                <label for="e-mail">E-mail:</label>
+                <input type="email" name="e-mail" id="e-mail" placeholder="Digite seu e-mail">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+     </div>
+    <!-- Fim Modal -->
+
 </body>
 </html>
