@@ -33,7 +33,7 @@
                         </ul>
                     </li>
                     <li><a href="#contatos">contato</a></li>
-                    <li><a href="#">login ⇨</a></li>
+                    <li><a href="login.html" target="_blank" data-modal="abrirModal">login ⇨</a></li>
                 </ul>
             </nav>
         </header>
@@ -218,9 +218,9 @@
     </div>
 
     <!-- Início Modal -->
-     <div class="modal-container">
+     <div class="modal-container" data-modal="containerModal">
         <div class="modal">
-            <button class="button-fecha-modal">x</button>
+            <button class="button-fecha-modal" data-modal="fechaModal">x</button>
             <form action="#">
                 <label for="e-mail">E-mail:</label>
                 <input type="email" name="e-mail" id="e-mail" placeholder="Digite seu e-mail">
