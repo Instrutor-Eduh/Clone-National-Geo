@@ -11,4 +11,4 @@ initDropMenu();
 initMenuMobile();
 initModal();
 initSlide();
->>>>>>>>> Temporary merge branch 2
+
