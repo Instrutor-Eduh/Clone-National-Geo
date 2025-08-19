@@ -1,0 +1,13 @@
+.tool_tip {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 2px var(--cor3), 0 0 0 6px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 170px;
+    position: absolute;
+    padding: 10px;
+    color: var(--cor5);
+    font-size: 0.775rem;
+    font-family: "IBM Plex Mono", monospace;
+    border-radius: 5px;
+    transition: opacity .3s ease;
+}
